@@ -6,6 +6,8 @@ A static website I made using react and tailwind css.
 [#ffffff] - white
 ## Font Family
 Poppins
+## Live Site
+https://react-site-1.netlify.app/
 ### Images from Unsplash
 ### Illustration from Undraw
 
