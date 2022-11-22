@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind hover;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    transition: all .3s ease-in-out;
+}
+*::selection{
+    background-color: #A9D9D0;
+    color: #fff;
+}
+@layer base{
+    body{
+        @apply font-poppins
+    }
+    li{
+        @apply p-4
+    }
+    button{
+        @apply text-white border bg-[#027373] border-[#027373] hover:bg-transparent hover:text-[#027373] rounded-md
+    }
+}
